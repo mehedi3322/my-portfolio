@@ -188,6 +188,11 @@ img {
   width: 24px;
   height: 24px;
 }
+.icon a img{
+  width: 24px;
+  height: 24px;
+}
+
 
 .skill-card h4 {
   /* font-weight: bold; */
@@ -239,4 +244,51 @@ img {
 }
 .resume-cotainer hr{
   margin: 25px 0px;
+}
+.text-center{
+  /* display: flex; */
+  text-align: center;
+}
+footer{
+  background-color: #FFF8F3;
+  margin-top: 115px;
+ 
+  padding: 130px 0;
+}
+.footer-container{
+  width: 1140px;
+   /* border: 3px solid turquoise; */
+   margin: 0 auto;
+   display: flex;
+   gap: 115px;
+   
+}
+.social{
+  width: 560px;
+  /* border: 3px solid turquoise; */
+}
+.footer-container h2{
+  color: #181818;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.social p{
+  font-size: 16px;
+  line-height: 28px;
+  color: #474747;
+  margin-bottom: 30px;
+}
+.icon a{
+  margin-right: 24px;
+}
+.input, .text-area{
+  width: 460px;
+  padding: 18px 30px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+  margin-bottom: 24px;
+  border-radius: 5px;
+  border: none;
 }
