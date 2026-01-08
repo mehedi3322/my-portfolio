@@ -7,9 +7,10 @@ header {
   background-color: #FFF8F3;
   background-image: url("../images/developer.png"), url("../images/header_bg.png");
   background-repeat: no-repeat;
-  background-position: top left, bottom right;
+  background-position: top left,bottom right ;
   padding-top: 50px;
 }
+ 
 
 * {
   margin: 0px;
@@ -200,4 +201,42 @@ img {
   color: #757575;
   font-size: 16px;
   line-height: 28px;
+}
+.resume-cotainer{
+  width: 1140px;
+  /* border: 2px solid purple; */
+  margin: 113px auto 0px;
+  display: flex;
+  gap: 24px;
+}
+.section-title{
+      font-size: 25px;
+      color: #474747;
+      padding-bottom: 30px;
+}
+.resume-card{
+  width: 510px;
+   /* border: 2px solid purple; */
+    margin-bottom: 30px;
+}
+.card-title{
+  font-size: 25px;
+  font-weight: bold;
+  color: #474747;
+  margin-bottom: 10px
+}
+.card-info{
+  font-size: 20px;
+  font-weight: 600;
+  color: #757575;
+  margin-bottom: 20px;
+}
+.card-text{
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+  
+}
+.resume-cotainer hr{
+  margin: 25px 0px;
 }
